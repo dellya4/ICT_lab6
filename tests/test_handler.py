@@ -32,7 +32,7 @@ def test_time_returns_200_and_time():
         None
     )
 
-    assert r["statusCode"] == 500
+    assert r["statusCode"] == 200
 
     body = json.loads(r["body"])
 
